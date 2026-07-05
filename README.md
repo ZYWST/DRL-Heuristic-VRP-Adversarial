@@ -30,13 +30,13 @@ This repository implements a Deep Reinforcement Learning (DRL) guided reactive r
     └── mapping/            # Map rendering code
 ```
 
-## Requirements
+##  Requirements
 
 Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+##  Usage
 
 Training, benchmarking, sensitivity analysis, and ablation study experiments can be run via scripts in the `scripts/` directory.
