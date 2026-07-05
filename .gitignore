@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+*.pyc
+*.html
+*.pkl
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and outputs
+*.log
+logs/
+*.csv
+!data/geo_data/*.csv
+output/
+
+# Model checkpoints (except pretrained)
+*.pkl
+!models/pretrained/*.pkl
+
+# Cache
+*.cache
+.pytest_cache/
+.history/
+
+# OS
+.DS_Store
+Thumbs.db
